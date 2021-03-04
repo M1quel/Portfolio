@@ -1,0 +1,36 @@
+
+.primaryNavigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.primaryNavigation__label {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.primaryNavigation__burgerBar {
+    background-color: black;
+    display: block;
+    height: 25%;
+    width: 100%;
+}
+
+
+
+
+.primaryNavigation__pointWrapper {
+    width: 350px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
