@@ -1,6 +1,7 @@
+import SecondaryMenu from "../../components/Homepage/SecondaryMenu/SecondaryMenu";
 
 export default function Homepage() {
     return (
-        <h1>Hej med dig</h1>
+        <SecondaryMenu/>
     )
 };
