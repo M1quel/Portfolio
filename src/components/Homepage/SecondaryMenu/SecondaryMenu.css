@@ -1,9 +1,9 @@
 .secondaryNavigationWrapper {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     height: 100vh;
-    width: 100vw;
     padding: 0 150px;
     display: flex;
     justify-content: flex-end;
@@ -33,6 +33,7 @@
     border-radius: 50%;
     border: 1px black solid;
     display: block;
+    cursor: pointer;
 }
 .firstDot {
     border: red 1px solid;
