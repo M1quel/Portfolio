@@ -1,4 +1,3 @@
-import {Link} from "@reach/router";
 import MenuPoint from "../Homepage/MenuPoint/MenuPoint";
 import "./PrimaryNavigation.css"
 
@@ -18,15 +17,19 @@ export default function PrimaryNavigation () {
                     <div>
                         <MenuPoint
                         heading="Homepage"
+                        to="/"
                         />
                         <MenuPoint
                         heading="Cases"
+                        to="/cases"
                         />
                         <MenuPoint
                         heading="Contact"
+                        to="/contact"
                         />
                         <MenuPoint
                         heading="About"
+                        to="/about"
                         />
                     </div>
                 </section>
