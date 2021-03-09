@@ -1,0 +1,40 @@
+.secondaryNavigationWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    padding: 0 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.secondaryNavigation {
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondaryNavigationDotWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.secondaryNavigationDot {
+    height: 10px;
+    width: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px black solid;
+    display: block;
+}
+.firstDot {
+    border: red 1px solid;
+    background-color: red;
+}

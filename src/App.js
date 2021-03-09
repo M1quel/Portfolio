@@ -1,8 +1,17 @@
 import './App.css';
+import Homepage from './pages/Homepage/Homepage';
+import { Router } from '@reach/router';
+import PrimaryNavigation from './components/PrimaryNavigation/PrimaryNavigation';
 
 function App() {
   return (
-    <h1>Hej med dig</h1>
+    <>
+    <PrimaryNavigation/>
+    <Router>
+      <Homepage path="/"/>
+
+    </Router>
+    </>
   );
 }
 
